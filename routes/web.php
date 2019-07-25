@@ -19,3 +19,7 @@ Route::get('test', function(){
 
     return view('test');
 });
+
+Route::get('/template', function(){
+   return view('template');
+});
